@@ -18,7 +18,7 @@ def adventure_game():
         dragon_choice = input("Do you try to sneak past the dragon or turn around? (sneak/turn): ").lower()
         if dragon_choice == "sneak":
             print("\nYou successfully sneak past the dragon, but unfortunately, the path leads to a dead end.")
-            print("You decide to return another day to continue your search for the treasure.")
+            print("You decide to return another day to continue your search for the treasure.") 
         else:
             print("\nYou turn around and exit the forest, deciding that today is not the day to face a dragon.")
 
